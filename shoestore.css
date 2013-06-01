@@ -28,6 +28,36 @@ h1{
 	font-size: 20px;
 	font-weight: bold;
 	font-family: verdana, san-serif;
+	margin-bottom: 5px;
+	color: white;
+}
+
+
+h2{
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-family: verdana, san-serif;
+	margin-bottom: 8px;
+	color: white;
+}
+
+h3{
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+	font-family: verdana, san-serif;
+	margin-bottom: 5px;
+	color: white;
+}
+
+
+p {
+	font-size: 12px;
+	font-family: verdana, san-serif;
+	text-align: left;
+	color: white;
+	line-height: 18px;
 }
 
 .page{
@@ -80,6 +110,7 @@ h1{
 .gu1{
 	width:50%;
 	margin-left: 15%;
+	padding-bottom: 5px;
 	border:1px solid blue;/*Grid visualization guide. Remove when publish*/
 }
 
@@ -91,6 +122,9 @@ h1{
 
 .gu2{
 	width:20%;
+	padding-left: 2%;
+	padding-right: 1%;
+	padding-top: 10px;
 	border:1px solid blue;/*Grid visualization guide. Remove when publish*/
 }
 
