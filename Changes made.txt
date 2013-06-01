@@ -1,3 +1,1 @@
-1. Changes the home button to already clicked
-2. Fixed the image size of the shoes images
-3. Added the updates
+1. Added 3 more items
