@@ -63,7 +63,7 @@ p {
 }
 
 .page{
-	border:5px solid black;/*Grid visualization guide. Remove when publish*/
+	/*border:5px solid black;/*Grid visualization guide. Remove when publish*/
 }
 
 .row {
@@ -100,6 +100,7 @@ p {
 
 }
 
+
 .pg-content .gu6 .content ul{
 	left:5%;
 	padding-bottom: 0px;
@@ -114,21 +115,21 @@ p {
 	width:50%;
 	margin-left: 15%;
 	padding-bottom: 5px;
-	border:1px solid blue;/*Grid visualization guide. Remove when publish*/
+	/*border:1px solid blue;/*Grid visualization guide. Remove when publish*/
 }
 
 .gu1_5{
 	width:30%;
 	text-align:center;
-	border:1px solid green;/*Grid visualization guide. Remove when publish*/
+	/*border:1px solid green;/*Grid visualization guide. Remove when publish*/
 }
 
 .gu2{
 	width:20%;
-	padding-left: 2%;
+	padding-left: 3%;
 	padding-right: 1%;
-	padding-top: 10px;
-	border:1px solid blue;/*Grid visualization guide. Remove when publish*/
+	padding-top: 2.5%;
+	/*border:1px solid blue;/*Grid visualization guide. Remove when publish*/
 }
 
 
@@ -136,14 +137,14 @@ p {
 	padding-bottom: 0px;
 	width:430px;
 	height:89px;
-	border:1px solid blue;/*Grid visualization guide. Remove when publish*/
+	/*border:1px solid blue;/*Grid visualization guide. Remove when publish*/
 	position:relative;
 }
 
 .gu3_25{
 	width:510px;
 	height:89px;
-	border:1px solid blue; /*Grid visualization guide. Remove when publish*/
+	/*border:1px solid blue; /*Grid visualization guide. Remove when publish*/
 	position:relative;
 	float:right;
 }
@@ -154,12 +155,12 @@ p {
 	padding-right: 0px;
 	padding-left: 0px;
 	text-align: center;
-	border:1px solid blue;/*Grid visualization guide. Remove when publish*/
+	/*border:1px solid blue;/*Grid visualization guide. Remove when publish*/
 	
 }
 
 .gu6{
-	width: 99.3%;
+	/*width: 99.3%;*/
 }
 a:active, a:hover{
 	color:#333333;
