@@ -1,6 +1,6 @@
 html {
 		font-size: 125%;
-		min-width: 1115px; /*Resize stops at 1115 because we don't wan the navigation list to become two rows and this is before it becomes two rows*/
+		min-width: 1150px; /*Resize stops at 1115 because we don't wan the navigation list to become two rows and this is before it becomes two rows*/
 		}
 
 * {
@@ -62,6 +62,16 @@ p {
 	margin-bottom: 10px;
 }
 
+
+ul #nav {
+
+	font-size:30px;
+	color:white;
+	/*Allows that padding to render in similar way on all browsers.*/
+	-moz-padding-start:0;
+	-webkit-padding-start:0;
+}
+
 .page{
 	/*border:5px solid black;/*Grid visualization guide. Remove when publish*/
 }
@@ -102,13 +112,21 @@ p {
 
 
 .pg-content .gu6 .content ul{
-	left:5%;
 	padding-bottom: 0px;
-	bottom: 0px;
+	position:absolute;
+	bottom:0px;
+	right: 10%;
+	font-size:20px;
+	color:white;
+	/*Allows that padding to render in similar way on all browsers.*/
+	-moz-padding-start:0;
+	-webkit-padding-start:0;
 }
 
 .pg-content .gu6 .content ul li{
 	padding-bottom: 0px;
+	display:inline; /*Display side by side*/
+	list-style: none; /*Remove bullet point*/
 }
 
 .gu1{
@@ -124,8 +142,10 @@ p {
 	/*border:1px solid green;/*Grid visualization guide. Remove when publish*/
 }
 
+
 .gu2{
 	width:20%;
+	height: 10em;
 	padding-left: 3%;
 	padding-right: 1%;
 	padding-top: 2.5%;
@@ -162,14 +182,21 @@ p {
 .gu6{
 	/*width: 99.3%;*/
 }
-a:active, a:hover{
-	color:#333333;
+
+
+a{
+	text-decoration: none;
 }
 
-ul{
+a:active, a:hover{
+	color:#333333;
+	text-decoration: none;
+}
+
+.gu3_25 .content .top_nav {
 	position:absolute;
 	bottom:0px;
-	right:20px;
+	right: 20px;
 	font-size:20px;
 	color:white;
 	/*Allows that padding to render in similar way on all browsers.*/
@@ -177,24 +204,26 @@ ul{
 	-webkit-padding-start:0;
 }
 
-ul li {
+.gu3_25 .content .top_nav li {
 	display:inline; /*Display side by side*/
 	list-style: none; /*Remove bullet point*/
 }
 
-#HomeImage{
-	width: 100%;
-	text-align: center;
-}
 
-ul #nav {
-
-	font-size:30px;
+.gu2 .content ul li {
+	display: block;
+	font-size:25px;
 	color:white;
-	/*Allows that padding to render in similar way on all browsers.*/
+	text-align: right;
+	margin-bottom:1em; 
 	-moz-padding-start:0;
 	-webkit-padding-start:0;
 }
+
+#HomeImage{
+	width: 100%;
+}
+
 
 #navbar{
 	width:101.5%;
